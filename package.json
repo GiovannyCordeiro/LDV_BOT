@@ -4,8 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
     "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "prestart": "npm run build",
     "start": "node ."
   },
   "engines": {
