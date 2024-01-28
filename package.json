@@ -4,9 +4,12 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
     "build": "tsc",
+    "dev": "tsx watch src/index.ts",
     "start": "node ."
+  },
+  "engines": {
+    "node": "18.17.0"
   },
   "keywords": [],
   "author": "",
